@@ -1,0 +1,113 @@
+.user {
+  position: absolute;
+  left: 30%;
+  top: 0;
+  width: 60%;
+  margin: 20px;
+  padding-bottom: 40px;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.user__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.user__name {
+  margin: 80px auto 10px auto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 0.4px;
+  color: #252733;
+}
+
+.user__catchphrase {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: #797a84;
+}
+
+.img {
+  background: url("/public/images/clark-van-der-beken-OvaPxvvFYNo-unsplash\ 1.jpg");
+  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.user__img {
+  transform: translateY(70%);
+  border-radius: 50%;
+  height: 150px;
+}
+
+.user__title {
+  margin: 50px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.user__info {
+  margin: 15px 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.user__website {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #3851ff;
+  margin: 14px 50px 50px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 450px) {
+  .user {
+    position: absolute;
+    left: -5%;
+    top: 40%;
+    width: 100%;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dfe0eb;
+    border-radius: 8px;
+    padding-bottom: 40px;
+  }
+
+  .user__name {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .user__catchphrase {
+    font-size: 18px;
+  }
+
+  .user__title {
+    font-size: 24px;
+  }
+
+  .user__info {
+    font-size: 12px;
+  }
+
+  .user__website {
+    font-size: 12px;
+  }
+}
