@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Users/static/css/main.329a8307.css",
+    "main.js": "/Users/static/js/main.d848bb03.js",
+    "static/media/clark-van-der-beken-OvaPxvvFYNo-unsplash 1.jpg": "/Users/static/media/clark-van-der-beken-OvaPxvvFYNo-unsplash 1.72fddcac0b3e945ba7a3.jpg",
+    "index.html": "/Users/index.html",
+    "static/media/logo.svg": "/Users/static/media/logo.0426ca372651920463b8.svg",
+    "main.329a8307.css.map": "/Users/static/css/main.329a8307.css.map",
+    "main.d848bb03.js.map": "/Users/static/js/main.d848bb03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.329a8307.css",
+    "static/js/main.d848bb03.js"
+  ]
+}
