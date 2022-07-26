@@ -10,8 +10,7 @@ export const User = ({ users }) => {
       {user ? (
         <div className="user">
           <div className="img">
-//             <img className="user__img" src="./images/cat.jpg" alt="cat" />
-               <img className="user__img" src="/Users/images/cat.jpg" alt="cat">
+            <img className="user__img" src="./images/cat.jpg" alt="cat" />
           </div>
           <div className="user__main">
             <h2 className="user__name">{user.name}</h2>
